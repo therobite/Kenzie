@@ -1,10 +1,16 @@
-function oddsToTwenty(numero) {
-    let arrRetorno = [];
-    for (let i = 0; i <= numero; i++){
-      if(i%2 === 1)
-        arrRetorno.push(i)
-    }  
-    return arrRetorno
-    
+function countNames(names) {
+
+  let resultado = 0
+
+  for (let i = 0; i < names.length; i++){
+
+     if(names[i].substring(0) === 'M')
+
+      resultado += 1
+      console.log(resultado)
+  
   }
-  console.log(oddsToTwenty(20))
+ 
+  return resultado
+}
+console.log(countNames(['Mauro', 'Ana', 'Gabriel', 'Maykel', 'Tiago']))
