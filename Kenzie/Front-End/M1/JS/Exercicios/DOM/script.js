@@ -25,7 +25,7 @@ document.querySelector('article').appendChild(articleH1)
 document.querySelector('article').appendChild(articleP)
 document.querySelector('article').appendChild(articleA) */
 ////////////////////
-const main = document.getElementById('#principal')
+/* const main = document.getElementById('#principal')
 let tagP = document.createElement('p')
 let tagImg = document.createElement('img') 
 let tagA = document.createElement('a') 
@@ -49,7 +49,15 @@ tagUl.appendChild(tagLi3)
 document.querySelector('#principal').appendChild(tagP)
 document.querySelector('#principal').appendChild(tagImg)
 document.querySelector('#principal').appendChild(tagA)
-document.querySelector('#principal').appendChild(tagUl)
+document.querySelector('#principal').appendChild(tagUl) */
+///////////////////////
+
+/* const h1 = document.getElementsByTagName('h1')
+h1.className = 'Especial'
+console.log(h1) */
+//////////////////////
+
+const tagP = document.getElementsByName('p')
 
 
 
