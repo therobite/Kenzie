@@ -57,7 +57,12 @@ h1.className = 'Especial'
 console.log(h1) */
 //////////////////////
 
-const tagP = document.getElementsByName('p')
+/* let tagP = document.querySelector('p')
+let novo = document.createTextNode(' Antoniel Robson de Campos Mariano')
+tagP.appendChild(novo)
+ */
+//////////////////////
+
 
 
 
