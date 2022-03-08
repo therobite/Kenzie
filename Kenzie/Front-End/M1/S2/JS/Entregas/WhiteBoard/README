@@ -1,7 +1,0 @@
-Defina uma função que quando é declarado um nome retorna "Hello, (Name)!" 
- ou diz Olá, Mundo! se o nome não for declarado ou ser String vazia. 
-
-Assumindo que o nome é uma String, verifique se há erros de digitação do usuário
- para retornar um nome com a primeira letra maiúscula (Xxxx). (Case Sensitive)
-
-Quando você finalizar o código iremos passar alguns testes.
