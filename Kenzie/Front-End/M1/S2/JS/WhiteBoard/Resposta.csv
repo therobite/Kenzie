@@ -1,0 +1,34 @@
+"Function";let i;i <=20;i++;" if ";arrRetorno.push;let arrRetorno
+"oneThroughTwenty (20)";1;true;i+1;"-";1;[1]
+"-";2;true;i+1;"-";2;[1,2]
+"-";3;true;i+1;"-";3;[1,2,3]
+"-";4;true;i+1;"-";4;[1,2,3,4]
+"-";5;true;i+1;"-";5;[1,2,3,4,5]
+;;;;;;
+"evensToTwenty(20)";let i;i <=20;i+1;" if  i%2 === 0";arrRetorno.push;let arrRetorno
+"-";1;true;i+1;"false";-;-
+"-";2;true;i+1;"true";2;[2]
+"-";3;true;i+1;"false";-;-
+"-";4;true;i+1;"true";4;[2,4]
+"-";5;true;i+1;"false";-;-
+;;;;;;
+"oddsToTwenty(20)";let i;i <=20;i+1;" if  i%2 === 1";arrRetorno.push;let arrRetorno
+"-";1;true;i+1;"true";1;[1]
+"-";2;true;i+1;"false";-;-
+"-";3;true;i+1;"true";3;[1,3]
+"-";4;true;i+1;"false";-;-
+"-";5;true;i+1;"true";5;[1,3,5]
+;;;;;;
+"multiplesOfFive(100)";let i;i <=100;i+1;" if  i%5 === 0";arrRetorno.push;let arrRetorno
+"-";1;true;i+1;"false";-;-
+"-";2;true;i+1;"false";-;-
+"-";3;true;i+1;"false";-;-
+"-";4;true;i+1;"false";-;-
+"-";5;true;i+1;"true";5;[5]
+;;;;;;
+"squareNumbers(10)";let i;i <=10;i+1;"-";arrRetorno.push;let arrRetorno
+"-";1;true;i+1;"-";i*i;[1]
+"-";2;true;i+1;"-";i*i;[1,4]
+"-";3;true;i+1;"-";i*i;[1,4,9]
+"-";4;true;i+1;"-";i*i;[1,4,9,16]
+"-";5;true;i+1;"-";i*i;[1,4,9,16,25]

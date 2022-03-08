@@ -1,0 +1,9 @@
+function numPares;let numerosPares;let i;i < numeros.lenght;i++;if (numeros[i] % 2 === 0);numerosPares.push
+;;0;true;i+1;true;10
+;[10];1;true;i+1;false;-
+;[10];2;true;i+1;true;36
+;[10, 36];3;true;i+1;true;58
+;[10, 36, 58];4;true;i+1;true;48
+;[10, 36, 58, 48];5;false;-;-;-
+;;;;;;
+;;;;;;
