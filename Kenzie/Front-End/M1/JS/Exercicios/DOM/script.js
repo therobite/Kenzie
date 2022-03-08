@@ -25,5 +25,32 @@ document.querySelector('article').appendChild(articleH1)
 document.querySelector('article').appendChild(articleP)
 document.querySelector('article').appendChild(articleA) */
 ////////////////////
+const main = document.getElementById('#principal')
+let tagP = document.createElement('p')
+let tagImg = document.createElement('img') 
+let tagA = document.createElement('a') 
+let tagUl = document.createElement('ul')
+let tagLi1 = document.createElement('li')
+let tagLi2 = document.createElement('li')
+let tagLi3 = document.createElement('li')
+
+tagP.innerText = 'Abaixo segue uma imagem e uma lista'
+tagImg.src = 'https://i.imgur.com/zya46I8.jpg'
+tagA.href = 'https://www.facebook.com/'
+tagA.innerText = 'Facebook'
+tagLi1.innerText = 'Comprar Processador'
+tagLi2.innerText = 'Comprar Placa Mãe'
+tagLi3.innerText = 'Comprar Memória Ram'
+
+tagUl.appendChild(tagLi1)
+tagUl.appendChild(tagLi2)
+tagUl.appendChild(tagLi3)
+
+document.querySelector('#principal').appendChild(tagP)
+document.querySelector('#principal').appendChild(tagImg)
+document.querySelector('#principal').appendChild(tagA)
+document.querySelector('#principal').appendChild(tagUl)
+
+
 
 
