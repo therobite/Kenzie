@@ -142,3 +142,4 @@ let secondText =document.createTextNode('World!')
 
 text.appendChild(secondText)
 root.appendChild(text)
+document.get
