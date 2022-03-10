@@ -119,3 +119,10 @@ function onClickResetFunction(){
 
 resetButton.addEventListener("click", onClickResetFunction)
  */
+
+
+let container = document.getElementById("root")
+container.innerText = "repetir mais"
+
+let span = document.createElement('span')
+console.log(span)
