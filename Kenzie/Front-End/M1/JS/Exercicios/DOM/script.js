@@ -121,7 +121,7 @@ resetButton.addEventListener("click", onClickResetFunction)
  */
 
 
-let container = document.getElementById("root")
+/* let container = document.getElementById("root")
 container.innerText = "repetir mais"
 
 let span = document.createElement("span")
@@ -134,4 +134,11 @@ let li = document.createElement('li')
 li.innerText = 'repetir cada vez mais'
 ul.appendChild(li)
 container.appendChild(ul)
-console.log(container)
+console.log(container) */
+let container = document.getElementById('root')
+let text = document.createElement('h1')
+text.innerText = 'Hello,'
+let secondText =document.createTextNode('World!')
+
+text.appendChild(secondText)
+root.appendChild(text)
