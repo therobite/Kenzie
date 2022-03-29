@@ -63,7 +63,7 @@ tagP.appendChild(novo)
  */
 //////////////////////
 
-/* const shoppingList = document.getElementById("list")
+const shoppingList = document.getElementById("list")
 const input = document.getElementById("input")
 const addButton = document.getElementById("add")
 const resetButton = document.getElementById("reset")
@@ -118,7 +118,6 @@ function onClickResetFunction(){
 }
 
 resetButton.addEventListener("click", onClickResetFunction)
- */
 
 
 /* let container = document.getElementById("root")
@@ -135,11 +134,27 @@ li.innerText = 'repetir cada vez mais'
 ul.appendChild(li)
 container.appendChild(ul)
 console.log(container) */
-let container = document.getElementById('root')
+/* let container = document.getElementById('root')
 let text = document.createElement('h1')
 text.innerText = 'Hello,'
 let secondText =document.createTextNode('World!')
 
 text.appendChild(secondText)
 root.appendChild(text)
-document.get
+document.get */
+
+function ehPrimo(i) {
+    let result = []
+    let sum =0
+        for (let divisor = 2; divisor < i; divisor++) 
+        if (i % divisor === 0) 	
+            i[divisor] = result
+    console.log(sum)
+    for (let i = 2; i < 1000; i++) 
+        if (result[i]) {
+        sum+=result[i]
+    }
+    
+    return sum
+}
+console.log(ehPrimo(1000))
